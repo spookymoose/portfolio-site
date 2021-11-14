@@ -1,9 +1,9 @@
 /* header section */
 
 .header-right {
-    background-image: url(./images/header-background.png);
+    font-size: 36px;
 }
 
-.social-links {
-    text-align: center;
+.project-image {
+    padding-bottom: 24px;
 }
