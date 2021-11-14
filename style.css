@@ -1,0 +1,9 @@
+/* header section */
+
+.header-right {
+    background-image: url(./images/header-background.png);
+}
+
+.social-links {
+    text-align: center;
+}
