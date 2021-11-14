@@ -7,3 +7,22 @@
 .project-image {
     padding-bottom: 24px;
 }
+
+#resume {
+    text-align: center;
+}
+
+#resume-background {
+    background-image: url(./images/header-background.png);
+}
+
+
+/* fonts */
+
+@font-face {
+    font-family: 'Motorola ScreenType';
+    src: url('MotorolaScreenType.woff2') format('woff2'), url('MotorolaScreenType.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
