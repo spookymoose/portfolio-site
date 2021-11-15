@@ -1,22 +1,22 @@
 /* global */
 
 body {
-    background-color: #111;
+    background-color: #ddd;
 }
 
 h3 {
     font-family: 'Motorola ScreenType';
-    color: #f2f2f2;
+    color: #30475E;
 }
 
 h4 {
     font-family: 'Motorola ScreenType';
-    color: #f2f2f2;
+    color: #30475E;
 }
 
 h5 {
     font-family: 'Motorola ScreenType';
-    color: #f2f2f2;
+    color: #30475E;
 }
 
 
@@ -51,22 +51,66 @@ h5 {
 
 .motorola {
     font-family: 'Motorola ScreenType';
-    color: #f2f2f2;
+    color: #222831;
 }
 
 .text {
-    color: #f2f2f2;
+    color: #222831;
     margin-bottom: 10px;
     font-size: 14px;
     line-height: 18.2px;
+    font-family: 'Motorola ScreenType';
 }
 
 
 /* custom button */
 
 .custom-button {
-    color: #111;
-    background-color: #f2f2f2;
+    font-family: 'Motorola ScreenType';
     border-width: 0px;
+    border-radius: 2px;
+    background-color: #F05454;
+}
+
+.custom-button:hover {
+    background-color: #9b2323;
+}
+
+
+/* footer */
+
+.footer-background {
+    background-color: #30475E;
+}
+
+.footer-text {
+    color: #f2f2f2;
+    font-family: 'Motorola ScreenType';
+    margin-bottom: 10px;
+    font-size: 14px;
+    line-height: 18.2px;
     font-family: 'Motorola ScreenType';
 }
+
+.footer-text-headline {
+    color: #f2f2f2;
+}
+
+
+/* 
+.btn-grad {background-image: linear-gradient(to right, #3CA55C 0%, #B5AC49  51%, #3CA55C  100%)}
+.btn-grad {
+   margin: 10px;
+   padding: 15px 45px;
+   text-align: center;
+   text-transform: uppercase;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;            
+   box-shadow: 0 0 20px #eee;
+   border-radius: 10px;
+   display: block;
+ }
+
+ .btn-grad:hover {
+   background-position: right center; /* change the direction of the change here */
