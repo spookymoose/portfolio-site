@@ -1,7 +1,8 @@
 /* global */
 
 body {
-    background-color: #ddd;
+    background: rgb(221, 221, 221);
+    background: radial-gradient(circle, rgba(221, 221, 221, 1) 0%, rgba(255, 255, 255, 1) 100%);
 }
 
 h3 {
@@ -26,8 +27,25 @@ h5 {
     font-size: 36px;
 }
 
-.project-image {
-    padding-bottom: 24px;
+@media only screen and (max-width: 767px) {
+    .header-right {
+        margin-top: 16px;
+        text-align: center;
+        ;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .resume-button {
+        text-align: center;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .hide-on-small {
+        display: none;
+    }
 }
 
 #resume {
