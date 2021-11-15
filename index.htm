@@ -16,27 +16,30 @@
     <title>Portfolio Site</title>
 </head>
 
-<body>
+<body data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="scrollspy-example" tabindex="0">
 
     <!-- Navigation -->
 
-    <ul class="nav justify-content-end motorola">
-        <li class="nav-item">
-            <a class="nav-link active text" aria-current="page" href="#">
-                <div class="btn btn-primary custom-button">Work</div>
-            </a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link text" href="#">
-                <div class="btn btn-primary custom-button">About</div>
-            </a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link text" href="#">
-                <div class="btn btn-primary custom-button">Social</div>
-            </a>
-        </li>
-    </ul>
+    <nav id="navbar-example2" class="navbar navbar-light bg-light px-3 fixed-top shadow-sm">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <ul class="nav nav-pills">
+          <li class="nav-item">
+            <a class="nav-link" href="#projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#social">Social</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Dropdown</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#scrollspyHeading3">Third</a></li>
+              <li><a class="dropdown-item" href="#scrollspyHeading4">Fourth</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#scrollspyHeading5">Fifth</a></li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
 
     <!-- Navigation -->
 
@@ -69,7 +72,7 @@
     <!-- Title Row -->
 
     <!-- Portfolio Item 1 -->
-    <div class="container mt-5">
+    <div id="projects" class="container mt-5">
         <div class="row">
             <div class="col-12 col-md-8">
                 <!-- Project 1 Images-->
@@ -81,7 +84,7 @@
 
             <!-- Project 1 Description -->
             <div class="col-12 col-md-4">
-                <h3 class="projectTitle">Airbnb Press Site Clone Assignment</h3>
+                <h3 id="scrollspyHeading1" class="projectTitle">Airbnb Press Site Clone Assignment</h3>
                 <h5>Client</h5>
                 <div class="text">Coding Bootcamp Assignment (Altcademy)</div>
                 <h5>Info</h5>
@@ -147,7 +150,6 @@
     </div>
 
     </div>
-
 
 
 

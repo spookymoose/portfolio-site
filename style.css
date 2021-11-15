@@ -132,3 +132,8 @@ h5 {
 
  .btn-grad:hover {
    background-position: right center; /* change the direction of the change here */
+
+   .navigation {
+    overflow-y: scroll;
+    height: 150px;
+   }
