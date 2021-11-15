@@ -1,3 +1,25 @@
+/* global */
+
+body {
+    background-color: #111;
+}
+
+h3 {
+    font-family: 'Motorola ScreenType';
+    color: #f2f2f2;
+}
+
+h4 {
+    font-family: 'Motorola ScreenType';
+    color: #f2f2f2;
+}
+
+h5 {
+    font-family: 'Motorola ScreenType';
+    color: #f2f2f2;
+}
+
+
 /* header section */
 
 .header-right {
@@ -13,16 +35,38 @@
 }
 
 #resume-background {
-    background-image: url(./images/header-background.png);
+    background-color: #f2f2f2;
 }
 
 
-/* fonts */
+/* text */
 
 @font-face {
     font-family: 'Motorola ScreenType';
-    src: url('MotorolaScreenType.woff2') format('woff2'), url('MotorolaScreenType.woff') format('woff');
+    src: url('./fonts/MotorolaScreenType.woff2') format('woff2'), url('./fonts/MotorolaScreenType.woff') format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
+}
+
+.motorola {
+    font-family: 'Motorola ScreenType';
+    color: #f2f2f2;
+}
+
+.text {
+    color: #f2f2f2;
+    margin-bottom: 10px;
+    font-size: 14px;
+    line-height: 18.2px;
+}
+
+
+/* custom button */
+
+.custom-button {
+    color: #111;
+    background-color: #f2f2f2;
+    border-width: 0px;
+    font-family: 'Motorola ScreenType';
 }
