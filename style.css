@@ -90,42 +90,91 @@
 
 h1 {
     font-family: 'Open Sans Bold';
+    color: #30475e;
 }
 
 h2 {
     font-family: 'Open Sans Bold';
+    color: #30475e;
 }
 
 h3 {
     font-family: 'Open Sans Bold';
+    color: #30475e;
 }
 
 h4 {
     font-family: 'Open Sans Bold';
+    color: #30475e;
 }
 
 h5 {
     font-family: 'Open Sans Bold';
+    color: #30475e;
 }
 
 .text {
     font-family: 'Open Sans'; 
+    color: #30475e;
     margin-bottom: 10px;
 }
 
-
-
-
 .project-subtitle {
     margin-bottom: 0px;
+    color: #30475e;
 }
 
 .footer-title {
     font-family: 'Open Sans';
-    
+    color: #30475e;
     margin-bottom: 0px;
 }
 
 .footer-background {
     background-color: #30475e;
+}
+
+.custom-button {
+    color: #fff;
+    border: 0px;
+    background-color: #c4a4a3;
+    font-family: 'Open Sans Bold Italic';
+}
+.custom-button:hover {
+    background-color: #915250;
+    font-family: 'Open Sans Bold';
+}
+
+.custom-button-link {
+    color: #30475e;
+    border: 0px;
+    font-family: 'Open Sans Bold Italic';
+}
+.custom-button-link:hover {
+    color: #915250;
+    font-family: 'Open Sans Bold';
+}
+
+
+a:link {
+    color: #30475e;
+  }
+  
+ 
+  a:visited {
+    color: #30475e;
+  }
+  
+  
+  a:hover {
+    color: #915250;
+  }
+  
+  
+  a:active {
+    color: #30475e;
+  }
+
+ .nav-pills {
+    
 }
