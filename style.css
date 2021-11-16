@@ -145,6 +145,9 @@ h5 {
     background-color: #30475e;
     font-family: 'Open Sans Bold';
 }
+.custom-button:visited {
+    background-color: #30475e;
+}
 
 .custom-button-link {
     color: #30475e;
@@ -199,3 +202,17 @@ a:link {
     background-color: #edeff1;
     
   }
+
+  #social {
+    font-family: 'Open Sans Bold';
+    color: #30475e;
+    font-family: 'Open Sans Light Italic';
+}
+
+#header-social {
+    font-family: 'Open Sans Bold';
+    color: #30475e;
+    font-family: 'Open Sans Light Italic';
+    font-size: 36px;
+    margin-top: 30px;
+}
