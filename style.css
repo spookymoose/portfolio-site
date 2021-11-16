@@ -1,112 +1,131 @@
-/* global */
-
-body {
-    background: rgb(221, 221, 221);
-    background: radial-gradient(circle, rgba(221, 221, 221, 1) 0%, rgba(255, 255, 255, 1) 100%);
+@font-face {
+    font-family: 'Open Sans Bold';
+    src: url('./fonts/OpenSans-Bold.woff2') format('woff2'),
+        url('./fonts/OpenSans-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
 }
-
-h3 {
-  
-}
-
-h4 {
-
-}
-
-h5 {
-
-}
-
-
-/* header section */
-
-.header-right {
-    font-size: 36px;
-}
-
-@media only screen and (max-width: 767px) {
-    .header-right {
-        margin-top: 16px;
-        text-align: center;
-        ;
-    }
-}
-
-@media only screen and (max-width: 767px) {
-    .resume-button {
-        text-align: center;
-        width: 100%;
-    }
-}
-
-@media only screen and (max-width: 767px) {
-    .hide-on-small {
-        display: none;
-    }
-}
-
-#resume {
-    text-align: center;
-}
-
-#resume-background {
-    background-color: #f2f2f2;
-}
-
-
-/* text */
 
 @font-face {
-    font-family: 'Motorola ScreenType';
-    src: url('./fonts/MotorolaScreenType.woff2') format('woff2'), url('./fonts/MotorolaScreenType.woff') format('woff');
+    font-family: 'Open Sans Bold Italic';
+    src: url('./fonts/OpenSans-BoldItalic.woff2') format('woff2'),
+        url('./fonts/OpenSans-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Open Sans Extra Bold';
+    src: url('./fonts/OpenSans-Extrabold.woff2') format('woff2'),
+        url('./fonts/OpenSans-Extrabold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Open Sans Extra Bolt Italic';
+    src: url('./fonts/OpenSans-ExtraboldItalic.woff2') format('woff2'),
+        url('./fonts/OpenSans-ExtraboldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Open Sans Italic';
+    src: url('./fonts/OpenSans-Italic.woff2') format('woff2'),
+        url('./fonts/OpenSans-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Open Sans Light';
+    src: url('./fonts/OpenSans-Light.woff2') format('woff2'),
+        url('./fonts/OpenSans-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Open Sans Light Italic';
+    src: url('./fonts/OpenSansLight-Italic.woff2') format('woff2'),
+        url('./fonts/OpenSansLight-Italic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('./fonts/OpenSans.woff2') format('woff2'),
+        url('./fonts/OpenSans.woff') format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
 }
 
-.motorola {
-    font-family: 'Motorola ScreenType';
-    color: #222831;
+@font-face {
+    font-family: 'Open Sans Semibold';
+    src: url('./fonts/OpenSans-Semibold.woff2') format('woff2'),
+        url('./fonts/OpenSans-Semibold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Open Sans Semibold Italic';
+    src: url('./fonts/OpenSans-SemiboldItalic.woff2') format('woff2'),
+        url('./fonts/OpenSans-SemiboldItalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+h1 {
+    font-family: 'Open Sans Bold';
+}
+
+h2 {
+    font-family: 'Open Sans Bold';
+}
+
+h3 {
+    font-family: 'Open Sans Bold';
+}
+
+h4 {
+    font-family: 'Open Sans Bold';
+}
+
+h5 {
+    font-family: 'Open Sans Bold';
 }
 
 .text {
-    color: #222831;
+    font-family: 'Open Sans'; 
     margin-bottom: 10px;
-    font-size: 14px;
-    line-height: 18.2px;
-    font-family: 'Motorola ScreenType';
 }
 
 
-/* custom button */
 
-.custom-button {
-    font-family: 'Motorola ScreenType';
-    border-width: 0px;
-    border-radius: 2px;
-    background-color: #F05454;
+
+.project-subtitle {
+    margin-bottom: 0px;
 }
 
-.custom-button:hover {
-    background-color: #9b2323;
+.footer-title {
+    font-family: 'Open Sans';
+    
+    margin-bottom: 0px;
 }
-
-
-/* footer */
 
 .footer-background {
-    background-color: #30475E;
-}
-
-.footer-text {
-    color: #f2f2f2;
-    font-family: 'Motorola ScreenType';
-    margin-bottom: 10px;
-    font-size: 14px;
-    line-height: 18.2px;
-    font-family: 'Motorola ScreenType';
-}
-
-.footer-text-headline {
-    color: #f2f2f2;
+    background-color: #30475e;
 }
